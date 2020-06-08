@@ -35,4 +35,18 @@ html
 a
 {
   color: navy;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: lime;
+  font-size: 100px;
+  text-decoration: inherit;
+}
+
+a:active
+{
+  color: white;
+  font-size: 90000000000000000000000000000005px;
 }
