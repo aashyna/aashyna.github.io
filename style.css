@@ -36,11 +36,12 @@ a
 {
   color: navy;
   text-decoration: none;
+  transition: all 0.5s;
 }
 
 a:hover
 {
-  color: lime;
+  color: MediumOrchid ;
   font-size: 100px;
   text-decoration: inherit;
 }
@@ -48,5 +49,5 @@ a:hover
 a:active
 {
   color: white;
-  font-size: 90000000000000000000000000000005px;
+  font-size: 10000px;
 }
