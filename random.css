@@ -1,0 +1,25 @@
+#randomly-said
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  background-color: #c6bdf3;
+  width: auto;
+  text-align: center;
+}
+
+.the-ultimate
+{
+  display: inline;
+  padding: 15px;
+}
+
+.the-ultimate a
+{
+  color: white;
+  text-decoration: none;
+}
+.the-ultimate a:hover
+{
+  color: SkyBlue;
+}
