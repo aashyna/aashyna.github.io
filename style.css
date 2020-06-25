@@ -51,3 +51,29 @@ a:active
   color: white;
   font-size: 10000px;
 }
+
+#Ive-never-heard
+{
+  height: 1000px
+}
+
+#company-review
+{
+  width: 100%;
+  text-align: center;
+}
+
+th,td,tr
+{
+  width: 25%
+}
+
+table,th,td
+{
+  border: 3px solid black;
+}
+
+ol,#idk
+{
+   text-align: left;
+}
