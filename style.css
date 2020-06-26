@@ -32,21 +32,21 @@ html
   text-align: center;
 }
 
-a
+a:not(.the-ultimate a)
 {
   color: navy;
   text-decoration: none;
   transition: all 0.5s;
 }
 
-a:hover
+a:not(.the-ultimate a):hover
 {
   color: MediumOrchid ;
   font-size: 100px;
   text-decoration: inherit;
 }
 
-a:active
+a:not(.the-ultimate a):active
 {
   color: white;
   font-size: 10000px;
@@ -76,4 +76,35 @@ table,th,td
 ol,#idk
 {
    text-align: left;
+}
+
+#randomly-said
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  background-color: #c6bdf3;
+  width: auto;
+  text-align: center;
+}
+
+.the-ultimate
+{
+  display: inline;
+  padding: 15px;
+}
+
+.the-ultimate a
+{
+  color: white;
+  text-decoration: none;
+}
+.the-ultimate a:hover
+{
+  color: SkyBlue;
+}
+
+.DUN_DUN_DUN
+{
+  text-align: left;
 }
