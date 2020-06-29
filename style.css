@@ -21,7 +21,7 @@ html
   font-size: 20px;
 }
 
-.headings
+h1
 {
   font-family: cursive;
 }
@@ -104,7 +104,7 @@ ol,#idk
   color: SkyBlue;
 }
 
-.DUN_DUN_DUN
+.DUN_DUN_DUN, .I-really-dont-know
 {
   text-align: left;
 }
