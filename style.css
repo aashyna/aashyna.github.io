@@ -11,7 +11,9 @@ html
 
 #cute-dog-with-carona
 {
-  height:50%
+  height:50%;
+  width: 100%;
+
 }
 
 #ending
@@ -107,4 +109,19 @@ ol,#idk
 .DUN_DUN_DUN, .I-really-dont-know
 {
   text-align: left;
+}
+
+#me
+{
+  width: 100%
+}
+
+@media screen and (max-width: 600px)
+{
+  .ecaps-ni-txet
+  {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
 }

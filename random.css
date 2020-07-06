@@ -23,3 +23,40 @@
 {
   color: SkyBlue;
 }
+
+@media screen and (max-width: 600px)
+{
+  .ecaps-ni-txet
+  {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 3em
+  }
+  .ecaps-ni-txet
+  {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 3em
+  }
+  .ecaps-ni-txet
+  {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 3em
+  }
+  .ecaps-ni-txet
+  {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 3em
+  }
+
+
+}
+
+.ecaps-ni-txet
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 3em
+}
