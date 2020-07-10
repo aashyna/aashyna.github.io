@@ -39,7 +39,7 @@ function yOURtEXThERE()
      else
      {
        var h1IScool = document.getElementById("eAthTmLaNdCsSwItHjS");
-       h1IScool.innerHTML=localStorage.secretSecretSecret;
+       h1IScool.innerHTML=localStorage.TeXtAlIeN;
      }
   }
 }
