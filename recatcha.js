@@ -7,6 +7,13 @@ function dogSafety()
   console.log(ss);
   var arr = ss.split("&");
   console.log(arr);
-  console.log("Favorite type of toy: "+arr[0].split("=")[1]);
+  var signal = arr[0].split("=")[1]);
+  var finalSignal = signal.split("+");
+  var newStuff = "";
+  for(var x = 0; x < finalSignal.length; x++)
+  {
+    newStuff+=finalSignal[x]+" ";
+  }
+  console.log newStuff;
 }
 dogSafety();
