@@ -14,6 +14,6 @@ function dogSafety()
   {
     newStuff+=finalSignal[x]+" ";
   }
-  console.log newStuff;
+  console.log(newStuff);
 }
 dogSafety();
