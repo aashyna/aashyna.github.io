@@ -13,4 +13,4 @@ function dogSafety()
   }
   console.log(newStuff);
 }
-dogSafety();
+dogSafety()
