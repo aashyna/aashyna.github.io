@@ -14,8 +14,13 @@ function dogSafety()
   console.log(newStuff);
   if (newStuff=="string grabbing toy")
   {
+    console.log("wep ofu");
     alert("You failed! Going to you failed page...\n\nProccessing...\n\nProccessing...\n\nComplete!");
     window.location.href="love-dogs.html";
+  }
+  else
+  {
+    console.log("we;oghi")
   }
 }
 dogSafety()
