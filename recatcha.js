@@ -12,5 +12,10 @@ function dogSafety()
     newStuff+=finalSignal[x]+" ";
   }
   console.log(newStuff);
+  if (newStuff=="string grabbing toy")
+  {
+    alert("You failed! Going to you failed page...\n\nProccessing...\n\nProccessing...\n\nComplete!");
+    window.location.href="love-dogs.html";
+  }
 }
 dogSafety()
