@@ -22,5 +22,4 @@ function dogSafety()
   {
     console.log("we;oghi");
   }
-}
-dogSafety()
+  dogSafety()

@@ -125,3 +125,17 @@ ol,#idk
   }
 
 }
+
+.D3
+{
+  background-color: MediumOrchid;
+  padding: 10px;
+  margin: 2px;
+  box-shadow: 3px 3px 10px;
+  border-radius: 10px;
+}
+
+.margins
+{
+  margin-top: 150px;
+}
