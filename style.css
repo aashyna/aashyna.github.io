@@ -88,6 +88,11 @@ ol,#idk
   background-color: #c6bdf3;
   width: auto;
   text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 372157584375984375827540574375483;
 }
 
 .the-ultimate
@@ -137,5 +142,10 @@ ol,#idk
 
 .margins
 {
-  margin-top: 150px;
+  margin-top: 300px;
+}
+
+.annoying
+{
+  margin-top: 75px;
 }
