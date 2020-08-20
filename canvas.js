@@ -112,6 +112,7 @@ function titleMilkyway()
     maxGap=100;
     gap=Math.floor(Math.random()*(maxGap-minGap+1)+minGap);
     cloudPencil.push(new bookworld(10,height,"skyblue",x,0));
+    cloudPencil.push(new bookworld(10,x-height-gap,"pink",x,height+gap));
   }
   for(i=0; i<cloudPencil.length; i+=1)
   {
