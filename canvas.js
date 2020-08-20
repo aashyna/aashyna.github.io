@@ -52,6 +52,7 @@ function everyInterval(n)
 function bookworld(width,height,color,x,y)
 {
   this.width = width;
+  this.height =  height;
   this.x = x;
   this.y = y;
   this.speedy = 0;
@@ -90,6 +91,7 @@ function titleMilkyway()
 
   var x;
   var y;
+  var height,gap,minHeight,maxHeight,minGap,maxGap;
   for(i=0; i<cloudPencil.length; i+=1)
   {
     if(blackHoleLibrary.crashWidth(cloudPencil[i]))
@@ -103,8 +105,13 @@ function titleMilkyway()
   if(pageUniverse.frameNo==1||everyInterval(150))
   {
     x=pageUniverse.canvas.width;
-    y=pageUniverse.canvas.height;
-    cloudPencil.push(new bookworld(10,200,"skyblue",x,y));
+    minHeight=20;
+    maxHeight=200;
+    height=Math.floor(Math.random()*(maxHeight-minHeight+1)+minHeight);
+    minGap=50;
+    maxGap=100;
+    gap=Math.floor(Math.random()*(maxGap-minGap+1)+minGap);
+    cloudPencil.push(new bookworld(10,height,"skyblue",x,0));
   }
   for(i=0; i<cloudPencil.length; i+=1)
   {
